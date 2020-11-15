@@ -14,5 +14,5 @@ class WalletApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+	
 }
