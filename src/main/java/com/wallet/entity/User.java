@@ -5,6 +5,7 @@ import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import lombok.Data;
 
@@ -13,6 +14,7 @@ import javax.persistence.GenerationType;
 
 @Entity
 @Data
+@Table(name = "users")
 public class User implements Serializable{
 
 	/**
