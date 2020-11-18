@@ -21,4 +21,6 @@ public interface WalletItemService {
 	BigDecimal sumByWalletId(Long wallet);
 	
 	Optional<WalletItem> findById(Long wallet);
+	
+	void deleteById(Long wallet);
 }
