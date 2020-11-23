@@ -1,0 +1,1 @@
+[![Build Status](https://www.travis-ci.org/github/brunonicoleti/walletAPI.svg?branch=master)](https://www.travis-ci.org/github/brunonicoleti/walletAPI)
