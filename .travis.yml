@@ -7,6 +7,5 @@ before_install:
 deploy:
   provider: heroku
   api_key: 
-    - secure: d7c11556-769b-4294-9184-c01823c0e06d
-  app: apiwalletnicoleti
-  
+    - secure: $SECURE_KEY
+  app: $APP
